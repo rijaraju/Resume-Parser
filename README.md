@@ -12,3 +12,9 @@ Create a resume parser using Spacy to extract key information from the resumes.\
       g)	Graduation Year\
       h)	Companies worked at\
       i)	Email address
+
+## Input training data
+Data is loaded from file - Entity Recognition in Resumes.json
+
+## Test data
+Data is loaded from 'output' folder
