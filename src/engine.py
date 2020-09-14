@@ -7,9 +7,7 @@ from ML_Pipeline import utils
 
 #####First lets create training data out of the tagged data############
 
-train = json_spacy.convert_data_to_spacy(
-    "C:\\gitproj\\Resume_Parsing\\Entity Recognition in Resumes.json"
-)
+train = json_spacy.convert_data_to_spacy("..\\Entity Recognition in Resumes.json")
 
 # print(train[0])
 
@@ -23,5 +21,5 @@ model = utils.check_existing_model("nlp_model")
 
 model = train_model.build_spacy_model(train, model)
 
-predict_model.predict("C:\\gitproj\\Resume_Parsing\\output\\")
+predict_model.predict("..\\output\\")
 
