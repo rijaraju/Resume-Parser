@@ -2,7 +2,7 @@
 
 ## Description
 
-Create a resume parser to extract Key information from the resumes the input data is given in JSON format with the following fields tagged :\
+Create a resume parser using Spacy to extract key information from the resumes./n The input data is given in JSON format with the following fields tagged :\
       a)	Location\
       b)	Designation\
       c)	Name\
@@ -11,4 +11,4 @@ Create a resume parser to extract Key information from the resumes the input dat
       f)	Degree\
       g)	Graduation Year\
       h)	Companies worked at\
-      i)	Email address\
+      i)	Email address
