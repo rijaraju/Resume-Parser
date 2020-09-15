@@ -5,7 +5,7 @@ from ML_Pipeline import text_extractor
 from ML_Pipeline import utils
 
 
-#####First lets create NER training data in Spacy format from JSON downloaded from Dataturks.
+#####First lets create NER training data in Spacy format from JSON downloaded from Dataturks (API).
 
 
 train = json_spacy.convert_data_to_spacy("../Entity Recognition in Resumes.json")
