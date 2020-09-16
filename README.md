@@ -3,10 +3,10 @@ Spacy NER
 
 ## Description
 
-Create a resume parser using Spacy to extract key information from the resumes.\n 
+Create a resume parser using Spacy to extract key information from the resumes.\
 
 ## Input training data
-Data is loaded from file - Entity Recognition in Resumes.json.\The input data is given in JSON format with the following fields tagged :\
+Data is loaded from file - Entity Recognition in Resumes.json. The input data is given in JSON format with the following fields tagged :\
       a)	Location\
       b)	Designation\
       c)	Name\
@@ -15,7 +15,7 @@ Data is loaded from file - Entity Recognition in Resumes.json.\The input data is
       f)	Degree\
       g)	Graduation Year\
       h)	Companies worked at\
-      i)	Email address\    
+      i)	Email address  
 
 ## Test data
 Data is loaded from 'output' folder
